@@ -71,3 +71,18 @@
 - **Tested On**: Chrome (Windows 11), Firefox (MacOS), Safari (iPhone 12)
 - **Priority**: Medium (Reason: Not a functional failure, but confusing for users. Lack of feedback may lead users to think the search is broken.)
 - **ScreenShot**: wrong-search.png
+
+
+### Bug 6: Sort Tag Only Sorts Items Page-Wise, Not Across Entire Dataset. 
+- **Steps to Reproduce**:
+  1. Open the page and select sort dropdown and choose an option like Rating, Author, Titile etc
+  2. Observe the sorting results across pages
+- **Expected**: 
+    - Sorting should apply to the **entire dataset**, not just the current page.  
+    - When sorting "Title A-Z", the first page should show the alphabetically earliest titles globally.
+- **Actual**: 
+    - Sorting only affects the current page of books.  
+    - When moving to the next page, the sort order resets or behaves inconsistently
+- **Tested On**: Chrome (Windows), Safari (iPhone)
+- **Priority**: High  (Reason: Sorting is a key usability feature. Partial sorting creates confusion and limits the usefulness of browsing large collections.)
+- **ScreenShot**: Books-are-invisible.png
