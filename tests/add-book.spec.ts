@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 test('Sorting by rating does not persist across pages (bug)', async ({ page }) => {
   await page.goto('http://localhost:5173');
 
-  // Select "Rating" from the dropdown
+  // Select "Rating" 
   await page.selectOption('.form-select', { label: 'Rating' });
   await page.waitForTimeout(1000); // Wait for results
 
