@@ -35,6 +35,8 @@ npm install
 npx playwright install
 npx playwright test
 
+---
+
 ##  Directory Structure
 
 manual-report/
