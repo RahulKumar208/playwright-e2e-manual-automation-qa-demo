@@ -27,9 +27,10 @@ Screenshots provided for each bug under `/manual-report/screenshots/`.
 
 ## 🤖 Automated End-to-End Testing
 
-Tool: [Playwright](https://playwright.dev/)
+**Tool:** [Playwright](https://playwright.dev/)
 
-### ✅ Setup Instructions:
+### ✅ Setup Instructions
+
 ```bash
 npm install
 npx playwright install
@@ -37,11 +38,15 @@ npx playwright test
 
 ---
 
-##  Directory Structure
-
+## Directory Structure 
 manual-report/
-├── manual-testing-report.md
+├── manual-testing.md
 ├── screenshots/
+│   ├── Search-bar-not-working.png
+│   ├── Pagination-shows-extra-empty-pages.png
+│   ├── Books-are-invisible.png
+│   ├── Pagination-Inconsistency.png
+│   ├── wrong-search.png
 
 tests/
 ├── sort-rating.spec.ts
@@ -51,4 +56,5 @@ tests/
 README.md
 package.json
 playwright.config.ts
+
 
