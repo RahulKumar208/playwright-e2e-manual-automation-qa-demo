@@ -1,4 +1,4 @@
-# Reedsy Quality Assurance Challenge
+# Playwright E2E Manual Automation QA
 
 ## 👤 About Me
 
